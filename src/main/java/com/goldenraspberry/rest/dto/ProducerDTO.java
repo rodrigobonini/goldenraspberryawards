@@ -5,14 +5,12 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
-
 @Builder
 @Getter
 @Setter
 @EqualsAndHashCode
-public class AwardDTO {
+public class ProducerDTO {
 
-    private List<ProducerAwardDTO> min;
-    private List<ProducerAwardDTO> max;
+    private String producer;
+    private Integer year;
 }
