@@ -7,12 +7,11 @@ da categoria Pior Filme do Golden Raspberry Awards.
 
 * Java >= 11
 * Spring Boot 2.7.1
+* Gradle 6.8.x, 6.9.x ou 7.x
 
 ## Passos para execução
 
-`mvn install`
-
-`mvn spring-boot:run` 
+`gradle bootRun` 
 
 ## Endpoints
 
